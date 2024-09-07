@@ -1,12 +1,12 @@
 import { useParams } from 'react-router-dom';
-import ExperienceGallery from '../components/experiences/ExperienceGallery';
+// import ExperienceGallery from '../components/experiences/ExperienceGallery';
 // import ExperienceHeader from '../components/experiences/ExperienceHeader';
-import ExperienceInfo from '../components/experiences/ExperienceInfo';
-import ExperienceRelatedProjects from '../components/experiences/ExperienceRelatedProjects';
+// import ExperienceInfo from '../components/experiences/ExperienceInfo';
+// import ExperienceRelatedProjects from '../components/experiences/ExperienceRelatedProjects';
 import { SingleProjectProvider } from '../context/SingleProjectContext';
 import { experiencesData } from '../data/experience';
 import { motion } from 'framer-motion';
-import ExperienceHeader from '../components/experiences/ExperienceHeader';
+// import ExperienceHeader from '../components/experiences/ExperienceHeader';
 
 const ExperienceSingle = () => {
     const { experienceId } = useParams();
@@ -33,9 +33,9 @@ const ExperienceSingle = () => {
             className="container mx-auto mt-5 sm:mt-10"
         >
             <SingleProjectProvider project={project}>
-                <ExperienceHeader project={project} />
+                {/* <ExperienceHeader project={project} />
                 <ExperienceGallery projects={project} />
-                <ExperienceInfo project={project} />
+                <ExperienceInfo project={project} /> */}
                 {/* <ExperienceRelatedProjects project={project} /> */}
             </SingleProjectProvider>
         </motion.div>

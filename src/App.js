@@ -15,7 +15,7 @@ const ProjectSingle = lazy(() => import('./pages/ProjectSingle.jsx'));
 const ProjectSingle_1 = lazy(() => import('./pages/ProjectSingle_1.jsx'));
 
 const Experiences = lazy(() => import('./pages/Experiences'));
-const ExperienceSingle = lazy(() => import('./pages/ExperienceSingl_1e.jsx'));
+const ExperienceSingle = lazy(() => import('./pages/ExperienceSingle.jsx'));
 
 
 function App() {
@@ -30,10 +30,10 @@ function App() {
 							<Route path="/" element={<Home />} />
 							<Route path="projects" element={<Projects />} />
 							<Route path="/experiences" element={<Experiences />} />
-							<Route
+							{/* <Route
 								path="experiences/single-experience"
 								element={<ExperienceSingle />}
-							/>
+							/> */}
 							
 							<Route
 								path="projects/single-project"

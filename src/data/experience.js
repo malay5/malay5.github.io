@@ -400,7 +400,8 @@ export const experiencesData = [
 		category: 'Founding Software Developer',
 		img: Sharperly, // Add the image path if available
 		ExperienceHeader: {
-			title: 'Led a team of 4 developers in the design, development, and deployment of backend systems for a logistics company specializing in parcel delivery.',
+			title: 'Sharperly: The Dispatch Giant of Africa',
+			description: 'Led a team of 4 developers in the design, development, and deployment of backend systems for a logistics company specializing in parcel delivery.',
 			publishDate: 'August 2023 - Present',
 			tags: 'Logistics / Backend Development',
 		},

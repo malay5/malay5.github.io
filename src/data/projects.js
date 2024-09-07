@@ -21,9 +21,11 @@ import captures_1 from "../images/captures.png"
 
 import nativelyopen_1 from "../images/nativelyopen.png"
 
-import coderella_1 from "../images/coderella.PNG"
-import coderella_2 from "../images/coderella.PNG"
-import coderella_3 from "../images/coderella.PNG"
+import coderella from "../images/coderella.PNG"
+
+import coderella_1 from "../images/girlscript_1.png"
+import coderella_2 from "../images/girlscript_2.png"
+import coderella_3 from "../images/girlscript_3.png"
 
 import UIImage2 from '../images/ui-project-2.jpg';
 
@@ -128,6 +130,10 @@ export const projectsData = [
 				},
 			],
 		},
+		RelatedProjects:[{
+			title:"",
+			img:""
+		}]
 	},
 	{
 		id: 2,
@@ -223,6 +229,10 @@ export const projectsData = [
 				},
 			],
 		},
+		RelatedProjects:[{
+			title:"",
+			img:""
+		}]
 	},
 	{
 		id: 3,
@@ -315,6 +325,10 @@ export const projectsData = [
 				},
 			],
 		},
+		RelatedProjects:[{
+			title:"",
+			img:""
+		}]
 	},
 	{
 		id: 4,
@@ -406,12 +420,16 @@ export const projectsData = [
 				},
 			],
 		},
+		RelatedProjects:[{
+			title:"",
+			img:""
+		}]
 	},
 	{
 		id: 5,
 		title: 'Coderella',
 		category: 'Web Application',
-		img: coderella_1,
+		img: coderella,
 		ProjectHeader: {
 			title: 'Coderella - Empowering Girls in Tech',
 			publishDate: 'Nov 10, 2021',
@@ -427,7 +445,7 @@ export const projectsData = [
 			{
 				id: 2,
 				title: 'Empowering Girls in Tech',
-				img: coderella_2,
+				img: coderella,
 			},
 			{
 				id: 3,
@@ -499,5 +517,9 @@ export const projectsData = [
 				},
 			],
 		},
+		RelatedProjects:[{
+			title:"",
+			img:""
+		}]
 	},
 ];

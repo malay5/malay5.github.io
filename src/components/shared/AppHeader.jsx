@@ -3,8 +3,8 @@ import { FiMenu, FiMoon, FiSun, FiX } from 'react-icons/fi';
 import { Link } from 'react-router-dom';
 import useThemeSwitcher from '../../hooks/useThemeSwitcher';
 import HireMeModal from '../HireMeModal';
-import logoDark from '../../images/malay-logo-light.svg';
-import logoLight from '../../images/malay-logo-dark.svg';
+import logoDark from '../../images/malay-logo-light.png';
+import logoLight from '../../images/malay-logo-dark.png';
 import { motion } from 'framer-motion';
 import Button from '../reusable/Button';
 
@@ -57,7 +57,7 @@ const AppHeader = () => {
 								<img
 									src={logoLight}
 									className="w-36"
-									alt="Dark Logo"
+									alt="Light Logo"
 								/>
 							)}
 						</Link>
